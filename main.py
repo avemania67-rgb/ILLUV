@@ -185,4 +185,4 @@ async def main():
 
 if __name__ == "__main__":
     print("Berhasil")
-    app.run(main())
+    asyncio.run(main())
