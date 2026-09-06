@@ -1,1 +1,1 @@
-worker: python React2.py
+worker: python main.py
