@@ -174,15 +174,9 @@ async def cmd_doni(client: Client, message: Message):
     await message.reply_text(text=caption_template)
 
 
-async def main():
-    async with app:
-        print("Memperbarui database sesi ID chat...")
-        async for dialog in app.get_dialogs():
-            pass
-        print("Sesi siap digunakan!")
-        await asyncio.Event().wait()
+
 
 
 if __name__ == "__main__":
     print("Berhasil")
-    asyncio.run(main())
+    app.run()
